@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.new {
+    color:#FF00FF;
+}
+/*margin: top right bottom  left*/
+
+div{margin:10px 10px; 
+    border: 5px solid #fcdeaa;
+}
+
+#custom {
+    margin: 100px 200px 100px 150px;
+    padding: 50px 30px 10px 20px;
+    border: 10px dotted #800000;
+    color: red;
+}
+
+section {
+    width:200px;
+    height:200px;
+    background-color: black;
+}
+
+#block {
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
