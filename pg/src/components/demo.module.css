@@ -1,3 +1,30 @@
 .s {
+
+    text-align: center;
     color:#FF00FF;
+    font-family: helvetica;
+    font-style: italic;
+}
+
+.button {
+    text-align: center;
+    padding-bottom:20px; 
+    width:auto;
+    height:20px;
+    color:#000;
+    background-color:#FFFFFF;
+}
+
+.dem {
+    display:flex;
+    flex-direction:column;
+    justify-content: fex-end;
+    
+}
+
+.props {
+    color:aquamarine;
+}
+.check {
+    color: aqua;
 }
