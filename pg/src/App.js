@@ -10,4 +10,5 @@ function App() {
   );
 }
 //data flow parent->>to child componenet
+
 export default App;

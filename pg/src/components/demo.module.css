@@ -27,4 +27,8 @@
 }
 .check {
     color: aqua;
+    width:auto;
+    height:20px;
+    color: #FF00FF;
+    background-color: black;
 }
