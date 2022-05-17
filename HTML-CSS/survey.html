@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--This is how html comments lokk like-->
+<html>
+  <head>
+    <title>Interests Survey</title>
+  </head>
+  <body>
+    <h1>Employee Interests Survey form</h1>
+    <!--As this is an survey form which will be submitted,
+    to redirect after submit we can give an absolute url or relative url
+    and specify post and get method-->
+    <form action="http://google.co.in">
+      <div align="center">
+      Enter your name :
+      <input type="text" name="UserName" size=35 maxlength=35 >
+      <br>
+      <br>
+      Enter your department:
+      <input type="text"  name="Deptt" size=35 maxlength=35 >
+      <br>
+      <br>
+      Tell us a little about yourself:
+      <br>
+      <textarea name="Comments" rows="4" cols="50"></textarea>
+      <br>
+      <br>
+      Do you exercise at home?
+      <!--radio will let us choose one options from many with same name-->
+      <!-- value is must if we use checkbox, radio,hidden-->
+      <input type="radio" name="exe" value="1">yes
+      <input type="radio" name="exe" value="2">no
+      <br>
+      <br>
+      How do you like to read about your favorite topic?
+      <p>
+        <input type="checkbox" name="Books">Books
+        <input type="checkbox" name="Web">Online resources
+        <input type="checkbox" name="phnoe">Phone apps
+        <input type="checkbox" name="Magzines">Magzines
+      </p>
+      <br>
+      <br>
+      what genre of movies do you like?
+      <select name="Preference"><option></option>
+          <option value="1" selected="true">comedy</option>
+          <option value="2">romance</option>
+          <option value="3">thriller</option>
+          <option value="4">horror</option>
+          <option value="5">biopic</option>
+      </select>
+      <br>
+      <br>
+      <input type="submit" name="submit form" value="submit form">
+      </div>
+    </form>
+  </body>
+</html>

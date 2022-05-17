@@ -1,0 +1,13 @@
+JavaScript Object Notation (JSON) object.
+
+JavaScript recognizes seven primitive (immutable) data types: Boolean, Null, Undefined, Number, String, Symbol (new with ES6), and BigInt (new with ES2020), and one type for mutable items: Object. Note that in JavaScript, arrays are technically a type of object.
+
+One syntax-level issue that fast typers can commiserate with is the humble spelling error.
+
+Another syntax error to be aware of is that all opening parentheses, brackets, curly braces, and quotes have a closing pair
+
+Almost every value on its own in JavaScript evaluates to true, except what are known as the "falsy" values: false, 0, "" (an empty string), NaN, undefined, and null.
+
+
+
+When a function or method doesn't take any arguments, you may forget to include the (empty) opening and closing parentheses when calling it. Often times the result of a function call is saved in a variable for other use in your code. This error can be detected by logging variable values (or their types) to the console and seeing that one is set to a function reference, instead of the expected value the function returns.

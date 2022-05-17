@@ -1,0 +1,12 @@
+.logo_container {
+  position: relative;
+  width:100%;
+  height:20px;
+  background-color: #DDDDDD;
+}
+
+.logo {
+  position:absolute;
+  width:100%;
+  height:auto;
+}

@@ -4,9 +4,9 @@ import Button from "./ontest.jsx";
 import {useState} from "react";
 
 const Demo=(props)=>{
-    console.log(props.name)
-    console.log(props.age)
-    console.log(props.email)
+    // console.log(props.name)
+    // console.log(props.age)
+    // console.log(props.email)
 
     let [word,setWord]=useState("hello");
     const setword=(event)=>{
@@ -19,14 +19,18 @@ const Demo=(props)=>{
     
     return(
         <div className={style.dem}>
-        <h1 className={style.s}>Hello folk's its me  !!!!</h1>
-        <Test/>
+        <h1 className={style.s}>Hello folk's its me!!!!</h1>
+        {/* <Test data={props.data}/> */}
+        {props.data.map((val,i)=>
+            <Test color={val.color} code={val.value}/>
+        )}
         <Button></Button>
-        <h1 className={style.props}>{props.name}</h1>
+        {/* <h1 className={style.props}>{props.name}</h1>
         <h1 className={style.props}>{props.age}</h1>
         <h1 className={style.props}>{props.email}</h1>
         <input type="text"  placeholder="enter text" onChange={setword}/>
-        <h1 className="style.check">{word}</h1>
+        <h1 className={style.check}>{word}</h1> */}
+
         </div>
     );
 }
